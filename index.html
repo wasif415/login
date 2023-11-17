@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-div register-div">
+            <form id="register-form">
+                <h3>REGISTER</h3>
+                <label class="full-name">Full Name
+                    <input  type="text" placeholder="Full Name" id="fullName">
+                </label><br>
+                <label>Email
+                    <input  type="email" placeholder="Email" id="email">
+                </label><br>
+                <label>Password
+                    <input  type="password" placeholder="Password" id="password">
+                </label><br>
+                <label>
+                    <input id="register-sumbit" type="submit" value="Register">
+                    
+                </label>
+                <p>Already have an account? <span id="signIn-switch">Sign In</span></p>
+            </form>
+            <div class="side-img">
+                <p>
+                    Hey <br>
+                    Welcome <br>
+                    In
+                </p>
+            </div>
+        </div>
+        <div class="container-div login-div">
+            <form id="login-form">
+                <h3>LOGIN</h3>
+                <label class="email">
+                    Email
+                    <input type="email" value="mohammadhunain321@gmail.com" required placeholder="Email" id="email" />
+                </label>
+                <br />
+
+                <label>
+                    Password
+                    <input type="password" required value="wasif514" placeholder="password" id="password" />
+                </label>
+                <br />
+                <input id="login-submit" type="submit" value="Sign in" />
+                <p>Do'nt have an account? <span id="signUp-switch">Sign up</span></p>
+            </form>
+            <div class="side-img">
+                <p>
+                    Hey <br>
+                    Welcome <br>
+                    Back
+                </p>
+            </div>
+        </div>
+        <!-- <form>
+        <label><input type="text" placeholder="Blog-Title"></label>
+        <label><input type="text" placeholder="Blog-Description"></label>
+        <input type="radio" name="level" value="Beginner">Beginner
+        <input type="radio" name="level" value="Intermediate">Intermediate
+        <input type="radio" name="level" value="Expert">Expert
+    </form> -->
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
